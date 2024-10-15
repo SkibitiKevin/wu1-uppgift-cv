@@ -3,7 +3,6 @@ h1 {
     font-size: 10ch;
     margin: 0px;
     margin-top: 60px;
-    max-width: 100;
     margin-inline: 100px;
 }
 
@@ -18,8 +17,12 @@ h3 {
 
 img {
     position: absolute;
-    top: 50px;
-    left: 1400px;
+    top: 450px;
+    left: 350px;
+    
+    margin-inline: -200px;
+    size: 00%;
+ 
 }
 
 h2, p {
@@ -29,6 +32,7 @@ h2, p {
     margin-top: 14px;
     max-width: 100;
     margin-inline: 110px;
+
     
 }
 
@@ -39,6 +43,9 @@ h2, p {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
+
+    margin: 0;
+    
 }
 
 main, footer{
@@ -48,4 +55,18 @@ main, footer{
 
 footer {
     margin-top: 5rem;
+}
+
+article {
+    display:flex;
+    
+}
+
+header {
+    background-color: rgb(255, 117, 117);
+
+}
+body {
+    background-color: rgb(255, 175, 175);
+    margin-top: 1px;
 }
