@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10ch;
+    font-size: 14ch;
     margin: 0px;
     margin-top: 60px;
     margin-inline: 100px;
@@ -17,12 +17,12 @@ h3 {
 
 img {
     position: absolute;
-    top: 450px;
-    left: 350px;
-    
-    margin-inline: -200px;
-    size: 00%;
- 
+    top: 60px;
+    left: 1243px;
+    background-color: rgb(255, 117, 117);
+    width: 530px;
+    transform: scaleX(-1);
+    border-radius: 100%;
 }
 
 h2, p {
@@ -64,6 +64,7 @@ article {
 
 header {
     background-color: rgb(255, 117, 117);
+    max-width: 70vw;
 
 }
 body {
