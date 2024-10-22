@@ -4,6 +4,7 @@ h1 {
     margin: 0px;
     margin-top: 60px;
     margin-inline: 100px;
+    color: rgba(255, 255, 255, 0.562);
 }
 
 h3 {
@@ -13,16 +14,20 @@ h3 {
     margin-top: 0px;
     max-width: 100;
     margin-inline: 110px;
+    color: rgba(255, 255, 255, 0.562);
 }
 
 img {
     position: absolute;
-    top: 60px;
-    left: 1243px;
+    top: 0px;
+    left: 1205px;
     background-color: rgb(255, 117, 117);
     width: 530px;
     transform: scaleX(-1);
     border-radius: 100%;
+    border-style:solid;
+    border-color:rgb(255, 117, 117);
+    border-width: 40px;
 }
 
 h2, p {
@@ -32,6 +37,7 @@ h2, p {
     margin-top: 14px;
     max-width: 100;
     margin-inline: 110px;
+    
 
     
 }
@@ -43,7 +49,6 @@ h2, p {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
-
     margin: 0;
     
 }
@@ -64,7 +69,10 @@ article {
 
 header {
     background-color: rgb(255, 117, 117);
-    max-width: 70vw;
+
+    position: relative;
+
+    background: linear-gradient(rgb(255, 117, 117) px, rgb(255, 175, 175));
 
 }
 body {
